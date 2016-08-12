@@ -30,7 +30,7 @@
             "name": "firecracker",
             "description": "Light them and they blowup, loud but small explosion."
         }
-        "mortar shell ": {
+        "mortar shell": {
             "id": 1,
             "type": 2,
             "name": "mortar shell",
@@ -40,72 +40,71 @@
             "id": 2,
             "type": 0,
             "name": "big bang mortar",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "Commercial mortar flies in the air with little display and a loud report."
         }
         "happy face mortar": {
             "id": 2,
             "type": 1,
             "name": "happy face mortar",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "Commercial mortar flies in the air with displays a happy face with report."
         }
         "fire fountain": {
             "id": 2,
             "type": 2,
             "name": "fire fountain",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "description": "Commercial fire displayed fountain shoots multi-colored flames 50 feet high."
         }
-        "fairy_sparklers": {
+        "nitroglycerin": {
             "id": 3,
             "type": 0,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "name": "nitroglycerin",
+            "description": "Highly volatile liquid used to make dynamite."
         }
-        "fairy_sparklers": {
+        "dynamite": {
             "id": 3,
             "type": 1,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "name": "dynamite",
+            "description": "Dynamite combines nitroglycerin with adsorbents and stabilizers, rendering it safe to use, but retaining the powerful explosive properties of nitroglycerin"
         }
-        "fairy_sparklers": {
+        "RDX": {
             "id": 3,
             "type": 2,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
-        "fairy_sparklers": {
+            "name": "RDX",
+            "RDX is an explosive nitroamine widely used in military and industrial applications. It was developed as an explosive which was more powerful than TNT"
+        "IDE": {
             "id": 4,
             "type": 0,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "name": "IDE",
+            "description": "We found anything that could blow up and put it in a 5 gallon bucket with a detonater."
         }
-        "fairy_sparklers": {
+        "hillbilly hand grenade": {
             "id": 4,
             "type": 1,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "name": "hillbilly hand grenade",
+            "description": "Small barrel of black power with a fuse"
         }
-        "fairy_sparklers": {
+        "rocket propelled canon ball": {
             "id": 4,
             "type": 2,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
-            "fairy_sparklers": {
+            "name": "rocket propelled canon ball",
+            "description": "A 50 pound cannon ball with 1500lb thrust rocket attached to it.""
         }
-        fairy_sparklers": {
+        "refurbished MX missle": {
             "id": 5,
             "type": 0,
-            "name": "Fairy Sparklers",
+            "name": "refurbished MX missle,
             "description": "Multi-colored sparklers that are safe for any age."
         }
-        fairy_sparklers": {
+        "Hydrogen Bomb": {
             "id": 5,
             "type": 1,
-            "name": "Fairy Sparklers",
+            "name": "Hydrogen Bomb",
             "description": "Multi-colored sparklers that are safe for any age."
         }
-        "fairy_sparklers": {
+        "Thermo-Nuclear Missle": {
             "id": 5,
             "type": 2,
-            "name": "Fairy Sparklers",
+            "name": "Thermo-Nuclear Missle",
             "description": "Multi-colored sparklers that are safe for any age."
         }
     }]
