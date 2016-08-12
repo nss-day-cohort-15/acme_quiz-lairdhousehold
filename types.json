@@ -3,20 +3,38 @@
         {
             "id": 0,
             "category": 0,
-            "name": "personal",
-            "description": "Fireworks intended for recreational use during holiday celebrations"
+            "name": "family safe",
+            "description": "Fireworks that can be used by children under adult supervision with minimal danger, intended for recreational use during holiday celebrations"
         }
         {
             "id": 0,
-            "category": 0,
-            "name": "personal",
-            "description": "Fireworks intended for recreational use during holiday celebrations"
+            "category": 1,
+            "name": "adult",
+            "description": "Fireworks that can be used safely used by adults dangerous if used incorrectly intended for recreational use during holiday celebrations"
         }
         {
             "id": 0,
+            "category": 2,
+            "name": "commercial",
+            "description": "Fireworks intended for use by licensed professionals during celebrations"
+        }
+        {
+            "id": 1,
             "category": 0,
-            "name": "personal",
-            "description": "Fireworks intended for recreational use during holiday celebrations"
+            "name": "demolition",
+            "description": "Explosives intended for use by demolition specialist"
+        }
+        {
+            "id": 1,
+            "category": 1,
+            "name": "militia",
+            "description": "Explosives intended for by small militia groups to overthrow local governments"
+        }
+        {
+            "id": 1,
+            "category": 2,
+            "name": "military",
+            "description": " Explosives used to kill and obliterate life."
         }
     ]
 }
