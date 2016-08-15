@@ -12,9 +12,20 @@ var Xplode = (function(call){
       }
     }
 $("#fireworks").click("fireworks")
-$("#destruction"). click("destruction")
+$("#destruction").click("destruction")
 
 function fireworks(){
+  $("#output").empty()
+  fireworks.forEach(function(safeFire){
+    $("#output").append('
+      <div class ="col-md-3">
+      <div class ="display">
+      <h3>Category
+      <h3>Type
+      <h5>Name ')
+
+  })
+
   $()
   }
 }
