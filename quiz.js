@@ -1,22 +1,23 @@
-var Xplode = (function(boom){
+var Xplode = (function(boomStix){
   var types = null;
   var categories = null;
   var products = null;
-    loadJson = function (loadPage){
+    boomStix.loadJson = function (loadPage){
       Promise.all([
       $.getJSON('categories.json'),
       $.getJSON('types.json'),
-      $.getJson('products.json'),
+      $.getJSON('products.json'),
       ])
         .then(function(catalog){
-          catagories = catalog[0].catagories
+          console.log(catalog)
+          categories = catalog[0].categories
           types = catalog[1].types
           products = catalog[2].products[0]
           loadPage(categories,types, products)
 
         })
     }
-return loadJson;
+return boomStix;
 
 })
 

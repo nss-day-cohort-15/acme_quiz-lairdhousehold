@@ -1,35 +1,42 @@
-var Xplode = (function(boom){
-  var fireworks=[]
-  var desruction =[]
-loadPage =  function (categories, types, products){
+var Xplode = (function(boomStix){
+  var fireworks=[];
+  var destruction =[];
+boomStix.loadPage = function(categories, types, products){
     for(var i in products){
       if (products[i].type <=2){
-        fireworks.push(products[i])
+        fireworks.push(products[i]);
       }
       else {
-        destruction.push(products[i])
+        destruction.push(products[i]);
 
       }
   }
-$("#fireworks").click("fireworks")
-$("#destruction").click("destruction")
+$("#").click("fireworx");
+$("#").click("destruxtion");
 console.log(fireworks)
-function fireworks(){
-  $("#output").empty()
+function fireworx(){
+  $("").empty();
   fireworks.forEach(function(safeFire){
-    $("#output").append(`
+    $("#").append(`
+
+  `)})
+function destruxtion(){
+  $("").empty();
+  destruction.forEach(function(deathFire){
+    $("#").append(`
       <div class ="col-md-3">
       <div class="display">
       <h3>Category</h3>
       <h3>Type</h3>
       <h5>Name</h5>
       <h5>Description</h5>
-      </div> </div>`)})
-
-
+      </div> </div>`)
+    console.log(destruction)
+  })
+}
   }
 }
-return loadPage
+return boomStix
 })
 (Xplode || {})
-Xplode.loadPage
+Xplode.loadJson(Xplode.loadPage)
