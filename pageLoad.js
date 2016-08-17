@@ -19,11 +19,11 @@ function fireworx(){
   $(".bombArea").empty();
   fireworks.forEach(function(safeFire){
     $(".bombArea").append(`
-      <div class="col-md-3">
-      <div class="products" style="background-color: rgba(0, 0, 255, 0.3); color: silver">
+      <div class="col-md-4" height: 20%>
+      <div class="products" style="background-color: rgba(0, 0, 255, 0.3); color: black">
       <h3>Category: ${categories[types[safeFire.type].category].name}</h3>
-      <h4>Type:${types[safeFire.type].name}</h4>
-      <h5>Product:${safeFire.name}</h5>
+      <h4>Type: ${types[safeFire.type].name}</h4>
+      <h5>Product: ${safeFire.name}</h5>
       <P>${safeFire.description}</p>
       </div>
       </div>
@@ -33,7 +33,16 @@ function fireworx(){
 function destruxtion(){
   $(".bombArea").empty();
   destruction.forEach(function(deathFire){
-    $(".bombArea").append(`ham`)
+    $(".bombArea").append(`
+      <div class="col-md-4">
+      <div class="products" style="background-color: rgba(0, 0, 255, 0.3); color: black">
+      <h3>Category: ${categories[types[deathFire.type].category].name}</h3>
+      <h4>Type: ${types[deathFire.type].name}</h4>
+      <h5>Product: ${deathFire.name}</h5>
+      <P>${deathFire.description}</p>
+      </div>
+      </div>
+      `)
 
     console.log(destruction)
   })
