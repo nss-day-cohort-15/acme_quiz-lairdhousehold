@@ -1,15 +1,23 @@
 $(document).ready(function (){
-  $('body').html(`<div class='container'>
-    <div class="dropdown open">
-  <a class="btn btn-secondary dropdown-toggle" href="http://example.com" id="dropdownMenuLink" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown link
-  </a>
-
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
+  $('body').html(`
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Blow Life to Bits</a>
   </div>
-</div>
-    `)
-})
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Choose Your Product
+             <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a  href="#" id="fireworx">Fireworks</a></li>
+            <li><a  href="#" id="destrux">Destruction</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="bombArea">
+      </div>
+    </div>
+  </nav>
+`)})
+

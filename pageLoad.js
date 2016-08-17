@@ -11,21 +11,23 @@ boomStix.loadPage = function(categories, types, products){
 
       }
   }
-$("#").click("fireworx");
-$("#").click("destruxtion");
-console.log(fireworks)
+$("#fireworx").click(fireworx);
+$("#destrux").click(destruxtion);
+
+
 function fireworx(){
-  $("").empty();
+  $(".bombArea").empty();
   fireworks.forEach(function(safeFire){
-    $("#").append(`  `)})
+    $(".bombArea").append(`<h3>Category: ${categories[types[safeFire.type].category].name}</h3> `)})
+}
+
 function destruxtion(){
-  $("").empty();
+  $(".bombArea").empty();
   destruction.forEach(function(deathFire){
-    $("#").append(`
+    $(".bombArea").append(`ham`)
 
     console.log(destruction)
   })
-}
   }
 }
 return boomStix

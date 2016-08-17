@@ -8,7 +8,7 @@ var Xplode = (function(boomStix){
       $.getJSON('types.json'),
       $.getJSON('products.json'),
       ])
-        .then(function(catalog){
+          .then(function(catalog){
           console.log(catalog)
           categories = catalog[0].categories
           types = catalog[1].types
