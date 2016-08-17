@@ -18,7 +18,16 @@ $("#destrux").click(destruxtion);
 function fireworx(){
   $(".bombArea").empty();
   fireworks.forEach(function(safeFire){
-    $(".bombArea").append(`<h3>Category: ${categories[types[safeFire.type].category].name}</h3> `)})
+    $(".bombArea").append(`
+      <div class="col-md-3">
+      <div class="products" style="background-color: rgba(0, 0, 255, 0.3); color: silver">
+      <h3>Category: ${categories[types[safeFire.type].category].name}</h3>
+      <h4>Type:${types[safeFire.type].name}</h4>
+      <h5>Product:${safeFire.name}</h5>
+      <P>${safeFire.description}</p>
+      </div>
+      </div>
+      `)})
 }
 
 function destruxtion(){
